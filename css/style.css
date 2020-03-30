@@ -1,0 +1,1743 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+
+/* Document
+========================================================================== */
+
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+
+/* Sections
+========================================================================== */
+
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    margin: 0;
+    cursor: default;
+}
+
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+    display: block;
+}
+
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+
+/* Grouping content
+========================================================================== */
+
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+}
+
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+
+/* Text-level semantics
+========================================================================== */
+
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent;
+}
+
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */
+}
+
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+
+/* Embedded content
+========================================================================== */
+
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+    border-style: none;
+}
+
+
+/* Forms
+========================================================================== */
+
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+}
+
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+    /* 1 */
+    overflow: visible;
+}
+
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+    /* 1 */
+    text-transform: none;
+}
+
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
+}
+
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    vertical-align: baseline;
+}
+
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
+}
+
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+}
+
+
+/* Interactive
+========================================================================== */
+
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+    display: block;
+}
+
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item;
+}
+
+
+/* Misc
+========================================================================== */
+
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+    display: none;
+}
+
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+    max-width: 1260px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #fff;
+    position: relative;
+}
+
+.main-logo {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+
+.menu-bar {
+    width: 65%;
+    text-align: right;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu-bar ul li a {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: 1;
+}
+
+.menu-bar ul li a:hover {
+    color: #0091d2;
+}
+
+.help-bar {
+    width: calc(15% - 50px);
+    margin-left: 50px;
+}
+
+.help-bar a {
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #13ce66;
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.help-bar:hover a{
+  color: #0091d2;
+}
+
+/*for menu-toggle symbole*/
+
+.mobile-menu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 28%;
+    display: none;
+}
+
+.mobile-menu span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+}
+
+.mobile-menu span:nth-child(1) {
+    margin-top: -10px;
+}
+
+.mobile-menu span:nth-child(2) {
+    margin: 0;
+}
+
+.mobile-menu span:nth-child(3) {
+    margin-top: 10px;
+}
+
+.show-menu .mobile-menu span:nth-child(1) {
+    transform-origin: top right;
+    transform: rotate(-45deg);
+}
+
+.show-menu .mobile-menu span:nth-child(2) {
+    display: none;
+}
+
+.show-menu .mobile-menu span:nth-child(3) {
+    transform-origin: bottom right;
+    transform: rotate(45deg);
+}
+
+
+/*for menu-toggle */
+
+.show-menu .menu-list {
+    display: block;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    z-index: 2;
+    background: #fff;
+    width: 100%;
+}
+
+.show-menu .menu-bar ul li {
+    display: block;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.show-menu .menu-bar ul li a {
+    padding: 10px 0;
+}
+
+
+/*end of menu-toggle */
+
+.slider-item {
+    position: relative;
+}
+
+.slider-item .image-holder {
+    max-height: 800px;
+    overflow: hidden;
+}
+
+.slider-item .image-holder img {
+    width: 100%;
+}
+
+.slider-item .content-holder {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #114dba;
+}
+
+.slider-item .content-holder .content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.slider-item .content-holder:before {
+    content: 'B';
+    font-size: 50rem;
+    position: absolute;
+    top: -8%;
+    right: 8%;
+    font-weight: 800;
+    color: #1348aa;
+}
+
+.slider-item .content-holder h2 {
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.slider-item .content-holder a {
+    font-size: 3.9rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.slider-item .content-holder a:after {
+    content: '';
+    position: absolute;
+    bottom: -13%;
+    left: 0;
+    width: 10%;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.25s ease-in-out;
+}
+.slider-item .content-holder h3 a:hover::after{
+  width: 50%;
+}
+
+.company-detail {
+    padding: 8%;
+    position: relative;
+}
+
+.box-section {
+    background-color: #13ce66;
+    padding: 5%;
+    float: left;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+}
+
+.box-section h2 {
+    font-size: 1.8rem;
+    line-height: 33px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.box-section p {
+    font-size: 1.25rem;
+    line-height: 26px;
+    font-family: 'Lato';
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.box-section .call,
+.box-section .mail {
+    margin-bottom: 30px;
+}
+
+.box-section .call a {
+    color: #000;
+    font-size: 2.5rem;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.call a:hover{
+    text-decoration: underline;
+
+}
+.box-section .mail a {
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 45px;
+    border-bottom: 1px solid #fff;
+}
+
+.dark-btn {
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    padding: 10%;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 15.5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: all 0.15s ease-in-out;
+}
+.dark-btn:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 9px 13px 0 #000000c9;
+}
+a.dark-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 0px 0px 0 #000000c9;
+}
+
+
+/* for intero section*/
+
+.intro {
+    margin-left: 45%;
+    padding-right:
+}
+
+.intro .title {
+    text-align: left;
+    width: 100%;
+}
+
+.title .main-title h2 {
+    font-size: 1rem;
+    font-family: 'Lato';
+    line-height: 26px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #114dba;
+    padding-bottom: 10px;
+}
+
+.title .sub-title h3 {
+    font-size: 2.2rem;
+    line-height: 45px;
+    letter-spacing: -3px;
+    font-weight: 700;
+}
+
+.intro .content p {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 20px 0;
+    font-family: 'Lato';
+}
+.intro .content p strong{
+    font-weight: 600;
+}
+.theme-color {
+    color: #114dba;
+}
+
+.secondary-color {
+    color: #13ce66;
+}
+
+.light-color {
+    color: #8f9090;
+}
+
+
+/* start of company-work */
+
+.company-work {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+}
+
+.title {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.work-item {
+    width: 28%;
+    text-align: center;
+    padding: 30px 18px;
+    margin: 20px;
+}
+
+.work-item:hover {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px 4px rgba(0, 0, 0, 0.09);
+    transition: all 0.5s linear;
+}
+
+.work-item:hover .work-sub-title {
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+
+.work-item:hover .icon {
+    transform: scale(1.2);
+    transition: all 0.5s linear;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.work-title a {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.work-sub-title span {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+/* starting of col-3 section c*/
+/*.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; 
+}*/
+
+
+.col-3 .item:first-child,
+.col-3 .item:last-child {
+    width: 50%;
+}
+
+.item {
+    width: 25%;
+    position: relative;
+    margin: -2px 0;
+}
+
+.col-3 .item .image-holder {
+    max-height: 476px;
+    overflow: hidden;
+}
+
+.item .title {
+    text-align: left;
+    width: 100%;
+}
+
+.item .content-holder {
+    margin: 0 70px;
+}
+
+.item .title .main-title h2 {
+    font-size: 1rem;
+    font-family: 'Lato';
+    line-height: 26px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #114dba;
+}
+
+.item .title .sub-title h3 {
+    font-size: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.item .content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.item .content a.arrow {
+    color: #13ce66;
+    line-height: 4;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-bottom: 1px solid;
+    position: relative;
+}
+
+a.arrow:before {
+    content: '';
+    position: absolute;
+    right: -36px;
+    bottom: 9px;
+    width: 15px;
+    height: 4px;
+    background-color: #13ce66;
+    transition: all 0.25s ease-in-out;
+}
+
+a.arrow:after {
+    content: '';
+    position: absolute;
+    right: -40px;
+    bottom: 4px;
+    border-right: 5px solid #13ce66;
+    transform: rotate(45deg);
+    border-top: 5px solid #13ce66;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+a.arrow:hover::before {
+    right: -43px
+}
+a.arrow:hover::after {
+    right: -47px
+}
+.small-main-title h3 {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: 700;
+    color: #fff;
+}
+
+.small-sub-title span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.small-content-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.item .small-content-holder .service-title {
+    position: absolute;
+    bottom: 15%;
+    padding-left: 15%;
+    transition: all 0.5s ease-in-out;
+}
+.item:hover .small-main-title, .item:hover .small-sub-title{
+    text-align: center;
+}
+
+.item:hover .small-content-holder {
+    background-color: #13ce66;
+}
+
+.item:hover .small-content-holder .service-title {
+    width: 100%;
+    bottom: 50%;
+    transform: translateY(50%);
+    padding: 0;
+}
+
+
+/* for post section*/
+
+.post-section {
+    padding: 100px 0 60px;
+}
+
+.post-list {
+    padding-top: 70px;
+}
+
+.post-item {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.post-item .image-holder {
+    position: relative;
+}
+
+.post-item .image-holder .post-category a{
+    position: absolute;
+    top: 70%;
+    right: -20px; 
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #13ce66;
+    font-size: 1rem;
+    letter-spacing: -1px;
+    color: #fff;
+}
+.post-item .image-holder .post-category a:hover{
+    background-color: #309c60;
+}
+.post-item .content {
+    padding-top: 10px;
+}
+
+.content .release-date span {
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+.content .post-title h3 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.content .post-author span,
+.content .comment-no span {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.content .post-author a:hover{
+    text-decoration: underline;
+}
+
+.content .post-author {
+    margin-right: 1.4rem;
+    float: left;
+    margin-top: 10px;
+}
+
+.content .comment-no {
+    margin-left: 1.4rem;
+    margin-top: 10px;
+    float: left;
+}
+
+.more-post {
+    text-align: center;
+}
+
+.more-post .dark-btn {
+    width: 15%;
+    padding: 25px;
+    margin-top: 70px;
+}
+
+
+/* satrting of client-section */
+
+.client-section {
+    padding: 60px 0 100px;
+}
+
+.client-item {
+    width: 25%;
+    padding: 50px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* discussion section*/
+
+.discussion-section {
+    background-image: url(../image/texture.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.discuss-content {
+    padding: 98px 0;
+}
+
+.disscuss-btn {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.disscuss-btn a.sec-btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #13ce66;
+    padding: 32px 60px;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in-out;
+}
+a.sec-btn:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 5px 4px 5px #3a484075;
+}
+a.sec-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 4px 2px #3a484075;
+}
+
+.discuss-content .title .main-title {
+    color: #13ce66;
+}
+
+.discuss-content .title .sub-title {
+    color: #fff;
+}
+
+
+/*footer */
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+}
+
+.footer .row {
+    align-items: flex-start;
+}
+
+.contact-list,
+.service-list {
+    width: 25%;
+}
+
+.links-list {
+    width: 50%;
+}
+
+.contact-list .address span {
+    font-family: 'Lato';
+    font-size: 1rem;
+    line-height: 26px;
+    color: #444;
+    margin-top: 15px;
+}
+
+.contact-list .contact span {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: -1px
+}
+
+.contact-list .contact a {
+    font-family: 'Lato';
+    font-size: 1rem;
+    line-height: 26px;
+    color: #444;
+}
+
+.contact-list .contact .phone,
+.contact-list .contact .mail {
+    margin-top: 25px;
+}
+
+.contact-list .contact .mail span {
+    float: left;
+    margin: 4px 0 15px 0;
+}
+
+.contact-list .contact .mail .mail-address {
+    display: inline;
+    margin-left: 10px;
+}
+
+.service-list h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -1px
+}
+
+.service-list ul {
+    list-style: none;
+    padding-top: 20px;
+    letter-spacing: -1px;
+}
+
+.service-list li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.service-list li:hover a {
+    color: #114dba;
+}
+
+.social-links ul {
+    list-style: none;
+    float: right;
+}
+
+.social-links ul li {
+    display: inline;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links ul {
+    float: right;
+    list-style: none;
+}
+
+.social-links ul li {
+    display: inline;
+    padding: 10px 10px;
+}
+
+.social-links ul li:hover {
+    background-color: #70468c;
+    border-radius: 5px;
+}
+
+.social-links span {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-right: 15px;
+}
+.footer form{
+  float: right;
+  width: 80%;
+}
+.footer input[type="text"] {
+    padding: 23px;
+    width: calc(100% - 86px);
+    float: left;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: #fff;
+    box-shadow: 1px 1px 9px #33333340;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.footer input[type="submit"] {
+    color: #fff;
+    padding: 23px;
+    float: left;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: #13ce66;
+    box-shadow: 1px 1px 9px #33333340;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+   
+}
+.footer .links-list p {
+    margin-top: 40px;
+    text-align: right;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #444;
+    float: right;
+}
+
+
+/* for responsive */
+
+
+/* for responsive */
+@media only screen and (max-width: 1250px) {
+    .company-work{
+      padding: 70px 0;
+    }
+    .item .content-holder {
+        margin: 20px 40px 20px 70px;
+    }
+    .item .title .main-title h2{
+      line-height: 15px;
+      padding: 0;
+    }
+    .item .title .sub-title h3 {
+      font-size: 3rem;
+      padding-bottom: 1.5rem;
+      padding-top: 1rem;
+    }
+    .item .content a.arrow{
+      line-height: 2;
+    }
+    .post-section {
+      padding: 75px 0 40px;
+    }
+    .client-section {
+      padding: 35px 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1042px) {
+    :root {
+        font-size: 14px;
+    }
+
+    .help-bar {
+        width: 15%;
+        margin-left: 0;
+    }
+
+    .more-post .dark-btn {
+        width: 20%;
+    }
+    .company-work{
+      padding: 45px 0;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    :root {
+        font-size: 14px;
+    }
+
+    .menu-bar ul li {
+        padding: 0 15px;
+    }
+
+    .slider-item .content-holder .content {
+        width: 65%;
+    }
+
+    .slider-item .content-holder:before {
+        font-size: 40rem;
+        top: -11%;
+        right: 1%;
+    }
+
+    .box-section .call a {
+        font-size: 2.2rem;
+    }
+    .company-work{
+      padding: 35px 0;
+    }
+    .item .content-holder {
+      margin: 10px 40px 10px 70px;
+    }
+    .item .title .main-title h3 {
+      font-size: 2.8rem;
+      padding-bottom: 1rem;
+      padding-top: 0; 
+      line-height: 30px;
+    }
+    .item .content p {
+      font-size: 1rem;
+    }
+    .post-section {
+      padding: 40px 0 25px;
+    }
+    .content .post-title a {
+        font-size: 1.4rem;
+    }
+    .client-section{
+      padding: 25px 0;
+    }
+    .discuss-content{
+      padding: 75px 0;
+    }
+}
+
+@media only screen and (max-width: 876px) {
+    .menu-bar ul li {
+        padding: 0 10px;
+    }
+
+    .slider-item .content-holder a {
+        font-size: 3.5rem;
+    }
+
+    .slider-item .content-holder:before {
+        font-size: 35rem;
+        top: -13%;
+        right: 1%;
+    }
+
+    .box-section .call,
+    .box-section .mail {
+        margin-bottom: 20px;
+    }
+
+    .box-section {
+        padding: 4%;
+    }
+
+    .box-section h2 {
+        font-size: 1.6rem;
+        padding-bottom: 20px;
+    }
+
+    .work-item {
+        width: 27%;
+        padding: 30px 0;
+    }
+
+    .content .comment-no {
+        margin-left: 0;
+    }
+
+    .content .post-title a {
+        font-size: 1.3rem;
+        line-height: 25px;
+    }
+
+    .disscuss-btn a.sec-btn {
+        padding: 26px 52px;
+    }
+    .small-sub-title h2{
+      font-size: 1.2rem;
+    }
+    .small-main-title h3{
+      font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*For menu-toggle section */
+    .menu-list {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: inline-block;
+    }
+
+    /*end of menu-toggle section  */
+    .main-logo {
+        width: 30%;
+    }
+
+    .menu-bar {
+        width: 50%;
+    }
+
+    .help-bar {
+        width: 20%
+    }
+
+    .slider-item .content-holder:before {
+        font-size: 30rem;
+    }
+
+    .slider-item .content-holder a {
+        font-size: 3rem;
+    }
+
+    .company-detail {
+        padding: 6%;
+    }
+
+    .box-section {
+        padding: 3%;
+        width: 35%;
+        top: 22%;
+    }
+
+    .intro {
+        margin-left: 45%;
+    }
+
+    .title {
+        width: 70%;
+    }
+
+    .work-item {
+        width: 42%;
+        padding: 30px 0;
+    }
+    .item .content-holder {
+      margin: 40px 70px;
+    }
+    .col-3 .item:first-child, .col-3 .item:last-child {
+      width: 100%;
+    }
+    .post-list {
+        padding-top: 30px;
+    }
+    .item {
+        width: 50%;
+    }
+    .item .title .main-title h2{
+      line-height: 26px;
+    }
+    .item .title .sub-title h3{
+      padding-bottom: 2rem;
+    }
+    .item .content a.arrow{
+      line-height: 3;
+    }
+
+    .content .post-title a {
+        font-size: 1.2rem;
+        line-height: 20px;
+    }
+
+    .content .post-author a,
+    .content .comment-no span {
+        font-size: 0.9rem;
+    }
+
+    .more-post .dark-btn {
+        width: 25%;
+        margin-top: 40px;
+    }
+
+    .client-item {
+        padding: 35px 10px;
+    }
+    .discuss-content{
+      padding: 50px 0;
+    }
+    .footer {
+        padding: 50px 0;
+    }
+
+    .contact-list,
+    .service-list {
+        width: 30%;
+    }
+
+    .links-list {
+        width: 40%;
+    }
+
+    .footer input[type="text"], .footer input[type="submit"] {
+        margin-top: 40px;
+    }
+
+    .footer .links-list h3 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .slider-item .content-holder:before {
+        font-size: 24rem;
+    }
+
+    .slider-item .content-holder h2 {
+        font-size: 0.8rem;
+    }
+
+    .slider-item .content-holder a {
+        font-size: 2.4rem;
+    }
+
+    .box-section {
+        width: 45%;
+        margin-right: 20px;
+        position: unset;
+    }
+
+    .intro {
+        margin-left: 0;
+    }
+
+    .intro .content p {
+        padding: 10px 0;
+    }
+    .company-work{
+      padding: 30px 0;
+    }
+
+    .title .main-title h3 {
+        font-size: 2rem;
+        line-height: 38px;
+        letter-spacing: -2px;
+    }
+
+    .post-list {
+        padding-top: 35px;
+    }
+
+    .post-item {
+        width: 50%;
+    }
+
+    .client-item {
+        width: 25%;
+        padding: 25px 10px;
+    }
+
+    .disscuss-btn a.sec-btn {
+        padding: 22px 48px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .contact-list,
+    .service-list {
+        width: 50%;
+    }
+
+    .links-list {
+        width: 100%;
+    }
+
+    .contact-list .contact .phone,
+    .contact-list .contact .mail {
+        margin-top: 6px;
+    }
+
+    .links-list {
+        margin-top: 20px;
+    }
+
+    .social-links {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .slider-item .content-holder:before {
+        font-size: 20rem;
+    }
+
+    .slider-item .content-holder a {
+        font-size: 2rem;
+    }
+
+    .company-detail {
+        padding: 6% 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-section {
+        width: 100%;
+        order: 2;
+        margin-right: 0;
+    }
+
+    .box-section h2 {
+        font-size: 1.4rem;
+        padding-bottom: 5px;
+        line-height: unset;
+    }
+
+    .box-section p {
+        font-size: 0.95rem;
+        line-height: unset;
+        padding-bottom: 5px;
+    }
+
+    .box-section .call,
+    .box-section .mail {
+        margin-bottom: 10px;
+    }
+
+    .box-section .call a {
+        font-size: 1.8rem;
+        line-height: unset;
+    }
+
+    .box-section .mail a {
+        color: #fff;
+        font-size: 1.25rem;
+        line-height: 17px;
+    }
+
+    .dark-btn {
+        width: 35%;
+        padding: 3% 5%;
+        margin-top: 10px;
+    }
+
+    .intro {
+        margin-left: 0;
+        width: 100%;
+        order: 1;
+    }
+
+    .title .sub-title h3 {
+        font-size: 1.7rem;
+        line-height: 28px;
+    }
+
+    .title .main-title h2 {
+        padding-bottom: 0;
+    }
+
+    .post-list {
+        padding-top: 22px;
+    }
+
+    .more-post .dark-btn {
+        width: 36%;
+        margin-top: 15px;
+    }
+
+    .client-item {
+        width: 33%;
+    }
+    .discuss-content{
+      padding: 45px 0;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    :root {
+        font-size: 12px;
+    }
+
+    .slider-item .content-holder:before {
+        font-size: 19rem;
+    }
+
+    .slider-item .content-holder a {
+        font-size: 1.9rem;
+    }
+
+    .title {
+        width: 85%;
+    }
+
+    .post-item {
+        width: 100%;
+    }
+
+    .post-item .image-holder .post-category {
+        font-size: 1rem;
+    }
+
+    .work-item {
+        width: 40%;
+    }
+
+    .title .main-title h3 {
+        font-size: 1.5rem;
+        line-height: 22px;
+        letter-spacing: -1px;
+    }
+
+    .disscuss-btn a.sec-btn {
+        padding: 18px 44px;
+    }
+}
